@@ -1,5 +1,6 @@
 $Contract = Read-Host -Prompt 'Contract'
 $IP = Read-Host -Prompt 'LDAP IP'
+$PW = Read-Host -Prompt 'Enter passsword'
 
 $original_file = 'E:\IFS\TEXT.py'
 $destination_path = New-Item -Path E:\IFS\new\$Contract -ItemType Directory
